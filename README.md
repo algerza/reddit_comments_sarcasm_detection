@@ -11,3 +11,9 @@ The goal of this project is to predict whether a comment is sarcastic or not bas
 3. Logistc Regression model's Jupyter notebook
 4. RoBERTa model's Jupyter notebook
 5. Final results for each model (csv's with their predicted labels) and summary table with a model comparison
+
+## Next steps
+- Compare more models' performance (i.e. Random Forest)
+- Create more datasets for RoBERTa in order to improve accuracy: comment + parent comment, clean data, etc
+- Re-organize and polish the code for a smooth deployment with Docker
+- Refactor the code, loading an already trained model, and predict only the latest inputs to simulate a production environment where fast and accurate output is required
