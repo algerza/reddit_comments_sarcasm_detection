@@ -21,7 +21,7 @@ The goal of this project is to predict whether a comment is sarcastic or not bas
 
 ## Instructions to run the model (You need Docker)
 1. Clone this repo
-2. Open the terminal in this folder
+2. Open the terminal in the docker folder
 3. Type: docker build -t dockerfile . 
 4. Type: docker run dockerfile
 5. You will see the results in the terminal
