@@ -19,7 +19,7 @@ The goal of this project is to predict whether a comment is sarcastic or not bas
 6. Saved our sarcasm logistic regression model to be loaded directly to predict future text's labels
 7. Docker file with the logistic regression model
 
-## Instructions to run the model
+## Instructions to run the model (You need Docker)
 1. Clone this repo
 2. Open the terminal in this folder
 3. Type: docker build -t dockerfile . 
