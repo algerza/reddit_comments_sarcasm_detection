@@ -7,7 +7,7 @@ print("Starting app...")
 ###
 ###################################################################################################
 
-print("Installing requirements...")
+# print("Installing requirements...")
 
 # get_ipython().system('pip install -r requirements_logit.txt')
 
