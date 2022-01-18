@@ -12,7 +12,7 @@ RUN pip install --upgrade pip
 COPY . .
 
 # install dependencies 
-RUN pip install -r requirements.txt
+RUN pip install -r requirements_logit.txt
 
 # execute the app when image will start 
 CMD [ "echo", "Starting docker" ]

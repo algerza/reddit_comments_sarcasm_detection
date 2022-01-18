@@ -16,9 +16,17 @@ The goal of this project is to predict whether a comment is sarcastic or not bas
 3. Logistc Regression model's Jupyter notebook
 4. RoBERTa model's Jupyter notebook
 5. Final results for each model (csv's with their predicted labels) and summary table with a model comparison
+6. Saved our sarcasm logistic regression model to be loaded directly to predict future text's labels
+7. Docker file with the logistic regression model
+
+## Instructions to run the model
+1. Clone this repo
+2. Open the terminal in this folder
+3. Type: docker build -t dockerfile . 
+4. Type: docker run dockerfile
+5. You will see the results in the terminal
 
 ## Next steps
 - Compare more models' performance (i.e. Random Forest)
 - Create more datasets for RoBERTa in order to improve accuracy: comment + parent comment, clean data, etc
-- Re-organize and polish the code for a smooth deployment with Docker
-- Refactor the code, loading an already trained model, and predict only the latest inputs to simulate a production environment where fast and accurate output is required
+- Re-organize and refactor the code, loading the already .sav trained model, predict only the latest inputs to simulate a production environment where fast and accurate output is required, store the results in a server or local directory
