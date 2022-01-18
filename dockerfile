@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt
 
 # execute the app when image will start 
 CMD [ "echo", "Starting docker" ]
-CMD [ "python", "./logistic_regression.py" ]
+CMD [ "python", "./model_log_reg.py" ]
