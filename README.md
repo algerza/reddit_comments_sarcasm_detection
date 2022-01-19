@@ -1,3 +1,8 @@
+
+
+![alt text](https://github.com/algerza/reddit_comments_sarcasm_detection/blob/main/cover.jpg)
+
+
 # Reddit comments sarcasm detection 
 
 Sarcasm has been part of our language for many years. It is the caustic use of irony, in which words are used to communicate the opposite of their surface meaning, in a humorous way or to mock someone or something. Understanding sarcasm is not always obvious, because it depends on your language skills and your knowledge of other people’s minds. For example, how would you classify the sentence “What a fantastic musician!”? Detecting sarcasm is much harder in text, as there are no additional cues. But what about a computer? Is it possible to train a machine learning model that can detect whether a sentence is sarcastic or not?
