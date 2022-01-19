@@ -11,15 +11,15 @@ The goal of this project is to predict whether a comment is sarcastic or not bas
 
 
 ## Content of this repo
-1. Custom functions to load and clean the data located in the functions.py file
+1. Custom functions to load and clean the data located in the functions.py file on the notebooks folder
 2. Exploratory data analysis' Jupyter notebook
 3. Logistc Regression model's Jupyter notebook
 4. RoBERTa model's Jupyter notebook
-5. Final results for each model (csv's with their predicted labels) and summary table with a model comparison
-6. Saved our sarcasm logistic regression model to be loaded directly to predict future text's labels
-7. Docker file with the logistic regression model
+5. Final results for each model (csv's with their predicted labels) and summary table with a model comparison on the results folder
+6. Saved our sarcasm logistic regression model to be loaded directly to predict future text's labels on the notebooks folder
+7. Docker file with the logistic regression model on the docker folder
 
-## Instructions to run the model (You need Docker)
+## Instructions to run the model with Docker
 1. Clone this repo
 2. Open the terminal in the docker folder
 3. Type: docker build -t dockerfile . 
@@ -28,5 +28,5 @@ The goal of this project is to predict whether a comment is sarcastic or not bas
 
 ## Next steps
 - Compare more models' performance (i.e. Random Forest)
-- Create more datasets for RoBERTa in order to improve accuracy: comment + parent comment, clean data, etc
+- Create more datasets for RoBERTa in order to improve accuracy (i.e. comment + parent comment, clean data, etc)
 - Re-organize and refactor the code, loading the already .sav trained model, predict only the latest inputs to simulate a production environment where fast and accurate output is required, store the results in a server or local directory
