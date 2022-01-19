@@ -1,0 +1,6 @@
+,Model,Accuracy,Execution_Time_Seconds
+0,log_reg_comment_only_without_cleaning,0.73,74.0
+2,log_reg_comment_only_with_cleaning,0.7,893.0
+1,log_reg_comment_with_parent_without_cleaning,0.69,182.0
+0,roberta_comment_only_without_cleaning,0.69,172800.0
+3,log_reg_comment_with_parent_with_cleaning,0.67,978.0
