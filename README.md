@@ -6,8 +6,8 @@ Sarcasm has been part of our language for many years. It is the caustic use of i
 The goal of this project is to predict whether a comment is sarcastic or not based on 1 million comments scrapped from Reddit - also called sub-reddits. This means, we are facing a binary classification problem that involves incorporating NLP techniques to feed to our ML models
 
 ## Results of this project
-- Logistic Regression provides the best accuracy results without any data cleansing (0.73) and the fastest output from the model
-- State-of-the-art models became easier to use with few lines of code, but the amount of training and prediction time represents their main drawback (48 hours for 20% of the original train set and an accuracy of 0.69) if it needs to be considered for production purposes
+- Logistic Regression provides the best accuracy results without any data cleansing (0.73) and the fastest prediction output from the model
+- State-of-the-art models became increasingly easier to use compared to some years ago. Nowadays, with few lines of code you can run these models, but the amount of training and prediction time represents their main drawback (48 hours for 20% of the original train set and an accuracy of 0.69) if it needs to be considered for production purposes
 
 
 ## Content of this repo
