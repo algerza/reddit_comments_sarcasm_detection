@@ -30,3 +30,12 @@ The goal of this project is to predict whether a comment is sarcastic or not bas
 - Compare more models' performance (i.e. Random Forest)
 - Create more datasets for RoBERTa in order to improve accuracy (i.e. comment + parent comment, clean data, etc)
 - Re-organize and refactor the code, loading the already .sav trained model, predict only the latest inputs to simulate a production environment where fast and accurate output is required, store the results in a server or local directory
+
+
++------------+------------+-----------+
+| Header 1   | Header 2   | Header 3  |
++============+============+===========+
+| body row 1 | column 2   | column 3  |
++------------+------------+-----------+
+| body row 2 | Cells may span columns.|
++------------+------------+-----------+
